@@ -1,0 +1,93 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass-link {
+  font-size: 14px;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+.forget{
+  margin-top: 10px;
+}
+.pass-link{
+  margin-bottom: 10px;
+  align-items: center;
+}
+.login-button{
+  transition: background-color 1s;
+  background-color:#00BAD2;
+}
+.login-button:hover{
+  background-color:  #00796b;
+}
+
+.loginSection{
+  margin-top: 12rem;
+}
+.registrationSection{
+  margin-top: 10px;
+}

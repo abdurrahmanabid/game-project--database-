@@ -1,0 +1,18 @@
+body{
+    background: #2B3035;
+  }
+
+  
+  /* Custom CSS for card styling and animation */
+  .card {
+    transition: transform 0.3s ease-in-out;
+    
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00BCD4;
+  }
+  .navbar-collapse{
+    margin-left: 35rem;
+  }

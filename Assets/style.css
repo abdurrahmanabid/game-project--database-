@@ -1,0 +1,79 @@
+
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            max-width: 400px; /* Reduced width for a smaller div */
+            margin: 50px auto;
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Subtle white box shadow */
+        }
+
+        .loginSection {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #00bcd4; /* Teal color for the title */
+        }
+
+        .content {
+            text-align: left;
+        }
+
+        .image img {
+            border-radius: 50%;
+            border: 5px solid #00bcd4; /* Teal border for the image */
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        .editable {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            padding: 5px;
+            margin-bottom: 10px;
+            transition: border-bottom 0.3s; /* Smooth transition for the input border */
+        }
+
+        .editable:focus {
+            outline: none;
+            border-bottom: 1px solid #00bcd4; /* Teal border on focus */
+        }
+
+        .btnbox {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #00bcd4; /* Teal button color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s; /* Smooth transition for button color */
+        }
+
+        .btn:hover {
+            background-color: #00796b; /* Darker teal on hover */
+        }
+
+        .bottom {
+            margin-bottom: 20px;
+        }
